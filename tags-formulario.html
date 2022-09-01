@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML - Forms</title>
 </head>
+
 <body>
     <p>Uma tag <code>form</code> para começar</p>
-    <p>Um label e um input aqui:</p>
-    <p>E um botão para terminar.</p>
+    <form action="#"> <!--- a HASHTAG envia o form para o próprio pc-->
+        <p>Um label e um input aqui:</p>
+        <br> <!--<br> quebra linha-->
+        <label for="name">Nome</label>
+        <br> 
+        <input type="text" name="Nome" id="name">  <!-- No ID vai a mesma identificação que no FOR de LABEL-->
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="E-mail" id="email">
+        <br>
+        <br>
+        <label for="age">Idade</label>
+        <br>
+        <input type="number" name="Idade" id="age">
+        <br>
+        <br>
+
+        <p>E um botão para terminar:</p>
+        <button tupe="submit" type="submit">Enviar informação</button> <!--SUBMITE envia a informação para backend /// BUTTONS podem ser: BUTTON /RESET / SUBMITE-->
+        
+
+    </form>
+
+
+
+    
 
 </body>
+
 </html>
